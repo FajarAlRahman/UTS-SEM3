@@ -65,7 +65,7 @@ public class Tendik extends Karyawan {
     public void hitungGaji(int jamLembur) {
         super.hitungGaji();
         System.out.println("Bonus Lembur  : " + hitungBonus(jamLembur));
-        System.out.println("Total Gaji       : " + (getGaji() + hitungBonus(jamLembur)) + "\n");
+        System.out.println("Total Gaji    : " + (getGaji() + hitungBonus(jamLembur)) + "\n");
     }
 
     public void cetak() {

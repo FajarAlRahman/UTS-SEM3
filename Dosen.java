@@ -82,7 +82,7 @@ public class Dosen extends Karyawan{
     public void hitungGaji(int sksLebih) {
         super.hitungGaji();
         System.out.println("Bonus SKS     : " + Bonus(sksLebih));
-        System.out.println("Total Gaji         : " + (getGaji() + Bonus(sksLebih)) + "\n");
+        System.out.println("Total Gaji    : " + (getGaji() + Bonus(sksLebih)) + "\n");
     }
 
     public void cetak() {
