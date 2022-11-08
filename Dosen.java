@@ -3,11 +3,6 @@ public class Dosen extends Karyawan{
     protected String jurusan;
     protected int lebihSks;
 
-//    public Dosen(int nidn, String jurusan){
-//        this.nidn = nidn;
-//        this.jurusan = jurusan;
-//    }
-
     public Dosen(int nip, String nama, String alamat, int tgl, int bln, int th, String gender, int thmasuk, int nidn, String jurusan, int lebihSks) {
         super(nip, nama, alamat, tgl, bln, th, gender, thmasuk);
         this.nidn = nidn;
@@ -87,7 +82,7 @@ public class Dosen extends Karyawan{
     public void hitungGaji(int sksLebih) {
         super.hitungGaji();
         System.out.println("Bonus SKS     : " + Bonus(sksLebih));
-        System.out.println("Total         : " + (getGaji() + Bonus(sksLebih)) + "\n");
+        System.out.println("Total Gaji         : " + (getGaji() + Bonus(sksLebih)) + "\n");
     }
 
     public void cetak() {

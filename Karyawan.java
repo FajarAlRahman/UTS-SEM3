@@ -70,7 +70,7 @@ public class Karyawan {
         System.out.println("Alamat        : " + getAlamat());
         System.out.println("Tanggal Lahir : " + getTgl()+"-"+getBln()+"-"+getTh());
         System.out.println("Jenis Kelamin : " + getGender());
-        System.out.println("Tahun masuk   : " + getThMasuk());
+        System.out.println("Tahun Masuk   : " + getThMasuk());
     }
 }
 
